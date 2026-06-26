@@ -22,7 +22,8 @@ Below logical diagram shows the pin conncetion between various components:
 <p align="center">
 <img width="1272" height="583" alt="test_jig" src="https://github.com/user-attachments/assets/b17b61e3-43d8-49dd-b4d5-bc88804dce36" />
 </p>
-*Only 2 Devices under test(DUT) shown in above diagram; connections for the rest remain the same.*
+
+*Only 2 Devices under test(DUT) shown in above diagramconnections for the rest remain the same.*
 
 ---
 
