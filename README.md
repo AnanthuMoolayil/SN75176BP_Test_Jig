@@ -31,4 +31,4 @@ Below logical diagram shows the pin conncetion between various components:
 <p align="center">
 <img width="2997" height="2732" alt="20251125_083349" src="https://github.com/user-attachments/assets/44f551a7-9be1-4578-b7b2-a8feb24becf4" />
 </p>
-*Only 2 Devices under test(DUT) shown in above diagram; connections for the rest reamin the same.
+
