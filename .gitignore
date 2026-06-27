@@ -1,0 +1,16 @@
+# Arduino build output
+build/
+*.elf
+*.hex
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
