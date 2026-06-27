@@ -1,3 +1,4 @@
+[![Compile Arduino Sketch](https://github.com/AnanthuMoolayil/SN75176BP_Test_Jig/actions/workflows/compile.yml/badge.svg)](https://github.com/AnanthuMoolayil/SN75176BP_Test_Jig/actions/workflows/compile.yml)
 # SN75176BP_Test_Jig
 Test Jig to verify standard operating capability of SN75176BP ICs using Arduino UNO.
 
