@@ -18,7 +18,7 @@
 |10µF electrolytic capacitor|1|
 |DIP-8 socket for DUT|10|
 
-
+---
 
 ## **2. Arduino Pin Assignment** 
 
@@ -36,7 +36,7 @@
 |5V|+5V rail|Power|
 |GND|Common GND|Ground|
 
-
+---
 
 ## **3. 74HC595 Wiring** 
 
@@ -89,10 +89,21 @@
 - Pin8 VCC -> +5V. 
 
 - For common A & B bus, consider the below resistor congiguration: 
+```text
+   +5V
+     |
+    680Ω  (pull-up)
+     |
+     |---->  A ----<---- RS-485 bus ----> to DUT A pins
+     |                |
+     |               120Ω
+     |                |
+     |---->  B ----<---- RS-485 bus ----> to DUT B pins
+    680Ω  (pull-down)
+     |
+    GND
+```
 
-+5V 
-
-| 680Ω  (pull-up) | |---->  A ----<---- RS-485 bus ----> to DUT A pins |                | |               120Ω |                | |---->  B ----<---- RS-485 bus ----> to DUT B pins 680Ω  (pull-down) | GND 
 
 ## **6. CD74HC4067 Wiring** 
 
@@ -106,7 +117,9 @@
 
 - EN -> GND. 
 
-- VCC -> +5V. GND -> GND. 
+- VCC -> +5V. GND -> GND.
+
+---
 
 ## **7. Passive Components** 
 
@@ -116,7 +129,9 @@
 
 - 100nF ceramic capacitor between VCC and GND of EVERY IC placed close to pins. 
 
-- 10µF electrolytic capacitor across +5V and GND near power entry. 
+- 10µF electrolytic capacitor across +5V and GND near power entry.
+
+---
 
 ## **8. Design Rules** 
 
